@@ -8,7 +8,7 @@ from EnvelopePerformanceSimple import simpleEnvPerformanceSelected as SEPS
 class TestSEPS(unittest.TestCase):
     
     def test_gen_includingQdashMhMc(self):
-        f = open('EnvelopePerformanceSimpleTestCase.txt','r',encoding='utf8')
+        f = open('EnvelopePerformanceSimpleTestCase.csv','r',encoding='utf8')
         reader = csv.reader(f)
         header = next(reader)
         for i, row in enumerate(reader):
