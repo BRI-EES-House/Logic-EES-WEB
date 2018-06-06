@@ -1,0 +1,12 @@
+CONTRIBUTING TO Logic-EES-Web
+======================
+
+動作環境
+--------------------------------
+* Anaconda3 (Python 3.6)
+* nbimporter (pip install nbimporter)
+
+
+ノートブック作成方法
+--------------------------------
+* 保存前に、"Run & Restart All"コマンドを実行します。
