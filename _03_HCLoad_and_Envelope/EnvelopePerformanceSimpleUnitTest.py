@@ -8,10 +8,14 @@ from EnvelopePerformanceSimple import simpleEnvPerformanceSelected as SEPS
 class TestSEPS(unittest.TestCase):
     
     def test_gen_includingQdashMhMc(self):
-        f = open('EnvelopePerformanceSimpleTestCase.csv','r',encoding='utf8')
-        reader = csv.reader(f)
-        header = next(reader)
-        for i, row in enumerate(reader):
+#        f = open('EnvelopePerformanceSimpleTestCase.csv','r',encoding='utf8')
+        f = open('test_envelope_simple.txt','r',encoding='shift-JIS')
+        #reader = csv.reader(f)
+        #header = next(reader.split('\t'))
+        header = next(f)
+#        for i, row in enumerate(reader):
+        for i, row in enumerate(f):
+            row = row[:-1].split('\t')
             testcase, region, area_total, area_main, area_other, house_type, bath_ins_type, U_roof, U_wall, U_floorOther, U_floorBath, U_door, U_window, eta_d_cooling, eta_d_heating, fValue_useDefault, fValue_cooling, fValue_heating, psi_perimeterOther, psi_perimeterEntrance, psi_perimeterBath, expected_UA, expected_etaAC, expected_etaAH = tuple(row)
             with self.subTest(testcase):
                 spec = {
