@@ -15,7 +15,8 @@ class TestSEPS(unittest.TestCase):
         header = next(f)
 #        for i, row in enumerate(reader):
         for i, row in enumerate(f):
-            row = row[:-1].split('\t')
+            # row = row[:-1].split('\t')
+            row = row.rstrip().split('\t')
             testcase, region, area_total, area_main, area_other, house_type, bath_ins_type, U_roof, U_wall, U_floorOther, U_floorBath, U_door, U_window, eta_d_cooling, eta_d_heating, fValue_useDefault, fValue_cooling, fValue_heating, psi_perimeterOther, psi_perimeterEntrance, psi_perimeterBath, expected_UA, expected_etaAC, expected_etaAH = tuple(row)
             with self.subTest(testcase):
                 spec = {
