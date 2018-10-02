@@ -18,6 +18,7 @@ class TestSEPS(unittest.TestCase):
             # row = row[:-1].split('\t')
             row = row.rstrip().split('\t')
             testcase, region, area_total, area_main, area_other, house_type, bath_ins_type, U_roof, U_wall, U_floorOther, U_floorBath, U_door, U_window, eta_d_cooling, eta_d_heating, fValue_useDefault, fValue_cooling, fValue_heating, psi_perimeterOther, psi_perimeterEntrance, psi_perimeterBath, expected_UA, expected_etaAC, expected_etaAH = tuple(row)
+            print(testcase)
             with self.subTest(testcase):
                 spec = {
                         'region' : { '1':'region1', '2':'region2', '3':'region3', '4':'region4', '5':'region5', '6':'region6', '7':'region7', '8':'region8' }[region],
