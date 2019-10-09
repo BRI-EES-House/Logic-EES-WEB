@@ -1,12 +1,11 @@
-## �T�v
-�u�Z��Ɋւ���ȃG�l���M�[��ɏ��������G�l���M�[����\�̎Z����@�v> https://www.kenken.go.jp/becc/house.html
-�Ɋ�Â��v�Z�t�@�C��
+「住宅に関する省エネルギー基準に準拠したエネルギー消費性能の算定方法」に基づく計算ファイル
+> https://www.kenken.go.jp/becc/house.html  
 
-## �v�Z�\�ȃt�@�C��
-���ݍ쐬���ŁA�v�Z�ł���t�@�C���͈ȉ��̂Ƃ���ł��B
+# 計算可能なファイル
+現在整備中のため、計算できるファイルは以下のとおりです。
 - s05_ventilation.ipynb
 - s06_lighting.ipynb
 - s09_01_pv_system.ipynb
 
-## �쐬��
-�ȃG�l������ψ���i�Z��j�v���O����SWG
+# 作成者
+省エネ基準検討委員会（住宅）プログラムSWG
