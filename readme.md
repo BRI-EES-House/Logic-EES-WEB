@@ -9,7 +9,8 @@ https://www.kenken.go.jp/becc/house.html
 - s05_ventilation.ipynb
 - s06_lighting.ipynb
 - s09_01_pv_system.ipynb
-- s07_01_hot_water_demand.ipynb
+- s07_01_hot_water_demand.ipynb  
+- s08_cgs.ipynb
 
 　上記以外は準備でき次第、順次公開していきます。  
 
