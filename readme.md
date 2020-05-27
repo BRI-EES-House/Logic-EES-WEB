@@ -8,6 +8,8 @@ https://www.kenken.go.jp/becc/house.html
 
 - s04_02_central_heating_system_with_duct.ipynb
 - s04_04_ff_type_heating.ipynb
+- s04_05_electric_floor_heating
+- s04_06_electric_thermal_storage_type_heating
 - s05_ventilation.ipynb
 - s06_lighting.ipynb
 - s07_01_hot_water_demand.ipynb  
