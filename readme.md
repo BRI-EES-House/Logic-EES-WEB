@@ -6,13 +6,14 @@ https://www.kenken.go.jp/becc/house.html
 ### 計算可能なファイル
 　ファイルの内容を変更する必要なく、実行ボタンを押すことで試算結果が表示されるファイルは以下のとおりです。
 
-- s04_02_central_heating_system_with_duct.ipynb
-- s04_04_ff_type_heating.ipynb
+- s04_02_central_heating_system_with_duct
+- s04_03_room_air_conditioner
+- s04_04_ff_type_heating
 - s04_05_electric_floor_heating
 - s04_06_electric_thermal_storage_type_heating
 - s05_ventilation.ipynb
 - s06_lighting.ipynb
-- s07_01_hot_water_demand.ipynb  
+- s07_01_hot_water_demand
 - s08_cgs.ipynb
 - s09_01_pv_system.ipynb
 
