@@ -11,6 +11,8 @@ https://www.kenken.go.jp/becc/house.html
 - s04_04_ff_type_heating
 - s04_05_electric_floor_heating
 - s04_06_electric_thermal_storage_type_heating
+- s04_07_Hot_water_heating
+- s04_08_hot_water_floor_heating_with_rac
 - s05_ventilation.ipynb
 - s06_lighting.ipynb
 - s07_01_hot_water_demand
