@@ -18,7 +18,9 @@ https://www.kenken.go.jp/becc/house.html
 - s07_01_hot_water_demand
 - s08_cgs.ipynb
 - s09_01_pv_system.ipynb
-- s09_02_water_based_solar_system
+- s09_02_water_based_solar_system(s07_01_hot_water_demandで実行可能)
+- s09_03_air_based_solar_system(s07_01_hot_water_demandで実行可能)
+
 　上記以外は準備でき次第、順次公開していきます。  
 
 ### 作成者
